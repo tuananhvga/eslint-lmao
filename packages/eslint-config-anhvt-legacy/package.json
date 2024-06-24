@@ -1,0 +1,18 @@
+{
+  "name": "eslint-config-anhvt-legacy",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Unicatevn <tuananh.vga@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

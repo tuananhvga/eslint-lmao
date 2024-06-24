@@ -1,0 +1,32 @@
+{
+  "name": "eslint-plugin-anhvt",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Unicatevn <tuananh.vga@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "npm run clean && tsc && npm run test",
+    "clean": "find lib -iname \"*.d.ts*\" -exec rm -f {} +",
+    "test": "npm-run-all test:types test:tests",
+    "test:mocha": "_mocha  --reporter progress --timeout 4000",
+    "test:tests": "npm run test:mocha \"tests/lib/**/*.js\"",
+    "test:types": "tsc --noEmit --emitDeclarationOnly false"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "@types/eslint": "^8.56.10",
+    "mocha": "^10.4.0",
+    "npm-run-all": "^4.1.5"
+  }
+}

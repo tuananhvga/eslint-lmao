@@ -1,0 +1,16 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Unicatevn <tuananh.vga@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint-config-anhvt-legacy": "*",
+    "eslint-plugin-anhvt": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
